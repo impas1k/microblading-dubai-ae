@@ -104,29 +104,6 @@
     /* TECHNIQUE COMPARISON TABLE */
     .compare-table{overflow-x:auto;margin:28px 0;border-radius:12px;border:1px solid #E8E0D6;-webkit-overflow-scrolling:touch}
     .compare-table table{min-width:580px;width:100%;border-collapse:collapse;font-size:14px}
-
-    /* Mobile: convert table to cards */
-    @media(max-width:640px){
-      .compare-table{overflow-x:visible;border:none;border-radius:0}
-      .compare-table table,.compare-table thead,.compare-table tbody,.compare-table th,.compare-table td,.compare-table tr{display:block}
-      .compare-table thead{display:none}
-      .compare-table tr{
-        border:1px solid #E8E0D6;border-radius:12px;
-        padding:16px;margin-bottom:12px
-      }
-      .compare-table tr.featured{border-color:#C4944E;border-width:2px}
-      .compare-table td{
-        padding:4px 0;border:none;font-size:13px;line-height:1.5
-      }
-      .compare-table td:not(:last-child){border-bottom:1px solid #f0ebe0;
-        padding-bottom:8px;margin-bottom:8px
-      }
-      .compare-table td::before{
-        content:attr(data-label);display:inline-block;
-        font-weight:600;color:#5a5248;width:80px;font-size:12px;text-transform:uppercase;letter-spacing:.04em
-      }
-    }
-    table{width:100%;border-collapse:collapse;font-size:14px;min-width:620px}
     th,td{text-align:left;padding:14px 16px}
     th{background:#F0EBE0;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:#6B6258}
     tr:not(:last-child) td{border-bottom:1px solid #F0EBE0}
