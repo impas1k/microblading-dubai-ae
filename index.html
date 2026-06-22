@@ -3,13 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Microblading Dubai: Complete Guide 2026 | microblading-dubai.ae</title>
-  <meta name="description" content="Microblading Dubai: what it is, cost (AED 1,200–2,500), vs nano vs powder brows, aftercare, and where to find certified technicians." />
-  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <title>Microblading Dubai: Complete Guide | microblading-dubai.ae</title>
+  <meta name="description" content="Microblading Dubai: how it works, cost AED 1,200–2,500, healing timeline, and how it compares to nanoblading, powder brows, and combo brows." />
   <link rel="canonical" href="https://microblading-dubai.ae/" />
   <meta property="og:locale" content="en_AE" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Microblading Dubai: Complete Guide 2026" />
+  <meta property="og:title" content="Microblading Dubai: Complete Guide" />
   <meta property="og:description" content="Everything about microblading in Dubai — techniques, pricing, before/after gallery, and what to ask at consultation." />
   <meta property="og:url" content="https://microblading-dubai.ae/" />
   <meta property="og:site_name" content="microblading-dubai.ae" />
@@ -25,7 +24,7 @@
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Microblading Dubai: Complete Guide 2026 — Cost, Techniques & Before/After",
+    "headline": "Microblading Dubai: Complete Guide — Cost, Techniques & Before/After",
     "description": "Comprehensive guide to microblading in Dubai. Technique overviews, pricing comparison, before/after gallery, and consultation checklist.",
     "author": {"@type": "Organization", "name": "microblading-dubai.ae"},
     "publisher": {"@type": "Organization", "name": "microblading-dubai.ae"},
@@ -57,6 +56,21 @@
     .nav-links li{display:flex;align-items:center}
     .nav-links a{font-size:12px;font-weight:500;color:#5a5248;text-transform:uppercase;letter-spacing:.08em;line-height:56px;display:block}
     .nav-links a:hover{color:#C4944E}
+    @media(max-width:768px){
+      .nav-links{display:none;position:absolute;top:56px;left:0;right:0;background:rgba(250,248,246,.98);flex-direction:column;gap:0;border-bottom:1px solid #E8E0D6;padding:8px 24px;z-index:99}
+      .nav-links.open{display:flex}
+      .nav-links li{display:block}
+      .nav-links a{line-height:44px;border-bottom:1px solid #F0EBE0}
+      .nav-links li:last-child a{border:none}
+      .nav-links a[href*="//"]{color:#C4944E;font-weight:600}
+    }
+    /* HAMBURGER */
+    .hamburger{display:none;flex-direction:column;gap:4px;cursor:pointer;border:none;background:none;padding:4px}
+    .hamburger span{display:block;width:22px;height:2px;background:#4A443E;border-radius:1px;transition:transform .2s}
+    .hamburger.open span:nth-child(1){transform:rotate(45deg) translate(4px,4px)}
+    .hamburger.open span:nth-child(2){opacity:0}
+    .hamburger.open span:nth-child(3){transform:rotate(-45deg) translate(4px,-4px)}
+    @media(max-width:768px){.hamburger{display:flex}}
     @media(max-width:640px){.nav-links{display:none}}
 
     /* HERO */
@@ -88,8 +102,8 @@
     li{margin-bottom:6px;font-size:15px;color:#4A443E}
 
     /* TECHNIQUE COMPARISON TABLE */
-    .compare-table{overflow-x:auto;margin:28px 0;border-radius:12px;border:1px solid #E8E0D6}
-    table{width:100%;border-collapse:collapse;font-size:14px}
+    .compare-table{overflow-x:auto;margin:28px 0;border-radius:12px;border:1px solid #E8E0D6;-webkit-overflow-scrolling:touch}
+    table{width:100%;border-collapse:collapse;font-size:14px;min-width:620px}
     th,td{text-align:left;padding:14px 16px}
     th{background:#F0EBE0;font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:#6B6258}
     tr:not(:last-child) td{border-bottom:1px solid #F0EBE0}
@@ -183,6 +197,9 @@
 <nav>
   <div class="container">
     <a href="/" class="nav-logo">microblading<span style="color:#C4944E">-</span>dubai<span style="color:#C4944E">.</span>ae</a>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
     <ul class="nav-links">
       <li><a href="#techniques">Techniques</a></li>
       <li><a href="#cost">Cost</a></li>
@@ -194,7 +211,7 @@
 
 <header class="hero">
   <div class="container">
-    <span class="badge">Dubai Brow Guide · 2026</span>
+    <span class="badge">Dubai Brow Guide</span>
     <h1>Microblading <em>in Dubai</em></h1>
     <p class="sub">The complete guide to microblading — how it works, what it costs in Dubai, how it compares to nano brows and powder brows, and what to expect during healing.</p>
 
@@ -241,7 +258,7 @@
             <td>Sparse/natural look</td>
             <td>12–24 months</td>
             <td>Mild</td>
-            <td>800–1,500</td>
+            <td>1,200–2,500</td>
           </tr>
           <tr>
             <td><strong>Nanoblading</strong></td>
@@ -488,7 +505,7 @@
   <div class="container">
     <div class="logo">microblading<span style="color:#8B857E">-dubai.ae</span></div>
     <div class="divider"></div>
-    <p>Independent guide to microblading and permanent makeup in Dubai, UAE.</p>
+    <p>Microblading and permanent makeup in Dubai, UAE.</p>
     <p>Content is for informational purposes. Always consult a qualified professional.</p>
     <p style="margin-top:14px">
       <a href="https://browsandlips.ae">browsandlips.ae</a>
@@ -497,15 +514,33 @@
       &nbsp;·&nbsp;
       <a href="https://browsandlips.ae/services/">All Services</a>
     </p>
-    <p style="margin-top:10px;font-size:11px;color:#6B6258">© 2026 microblading-dubai.ae</p>
+    <p style="margin-top:10px;font-size:11px;color:#6B6258">© microblading-dubai.ae</p>
   </div>
 </footer>
 
 <script>
-const observer = new IntersectionObserver(function(entries){
-  entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('visible')})
-},{threshold:.1})
-document.querySelectorAll('.fade-in').forEach(function(el){observer.observe(el)})
+(function(){
+  // Fade-in on scroll
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting)e.target.classList.add('visible')})
+  },{threshold:.1})
+  document.querySelectorAll('.fade-in').forEach(function(el){observer.observe(el)})
+
+  // Hamburger toggle
+  var nav = document.querySelector('.nav-links')
+  var hamburger = document.getElementById('hamburger')
+  if(!nav || !hamburger) return
+  hamburger.addEventListener('click', function(){
+    hamburger.classList.toggle('open')
+    nav.classList.toggle('open')
+  })
+  nav.querySelectorAll('a').forEach(function(link){
+    link.addEventListener('click', function(){
+      hamburger.classList.remove('open')
+      nav.classList.remove('open')
+    })
+  })
+})()
 </script>
 
 </body>
